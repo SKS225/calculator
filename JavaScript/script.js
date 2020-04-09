@@ -1,35 +1,30 @@
 //JavaScript code linked with index.html(Calculator website)
 
 
-//dev();//popup alert function called 
 function dis(x)
 {
 	document.getElementById("result").value+=x;
 }
-//JavaScript FIle linked with Calculator Website/index.html
-
 
 //Calculator working functions
 function resl()
 {
-	//document.getElementById("result").style.backgroundColor="#66ff66";
-
 	let y=document.getElementById("result").value;
 	let z=eval(y);
 	if(z==undefined)
-		document.getElementById("result").style.backgroundColor="ff6666";
+	{
+		document.getElementById("result").style.backgroundColor="#ff6666";
+	}
 	else
+	{
 		document.getElementById("result").style.backgroundColor="#66ff66";
+	}
 	
 	document.getElementById("result").value=z;
 }
 function clr()
 {
 	document.getElementById("result").value="";
-}
-function dev()
-{
-	alert("Welcome to the calculator... ;)\nGreetings from: SKS (Website Developer)");
 }
 
 
