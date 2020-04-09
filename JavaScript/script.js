@@ -39,6 +39,7 @@ function over2(x)
 {
 	x.style.backgroundColor="Blue";
 	x.style.color="white";
+	x.style.borderColor="blue";
 }
 function out(x)
 {
