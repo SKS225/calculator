@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Basic Calculator</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<meta name="author" content="SKS">
+	<meta name="Keywords" content="HTML, CSS, JavaSCript">
+	<script src="JavaSCript/script.js"></script>
+	<link rel="stylesheet" href="CSS/style.css">
+</head>
+<body align="center">
+<div class="wrapper">
+
+	<div class="header">
+		<!--Heading-->
+		<h1><b><u>CALCULO</u></b></h1>
+	
+		<!--Subheading-->
+		<h3>A calculator for basic mathematical operations</br>#Go Calculating...</h3>
+	</div>
+	
+	
+	<!--Calculator Body-->
+	<div class="calculator">
+	<form name="calc">
+		<table align="center">
+			<tr><!--First Row-->
+				<td colspan="4"><input type="text" id="result" disabled/></td>
+			</tr>
+			<tr><!--Second row-->
+				<td><input type="button" id="one" value="1" onclick="dis('1')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="two" value="2" onclick="dis('2')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="three" value="3" onclick="dis('3')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="add" value="+" onclick="dis('+')" onmouseover="over3(this)" onmouseout="out(this)"></td>
+			</tr><!--Third row-->
+			<tr>
+				<td><input type="button" id="four" value="4" onclick="dis('4')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="five" value="5" onclick="dis('5')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="six" value="6" onclick="dis('6')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="sub" value="-" onclick="dis('-')" onmouseover="over3(this)" onmouseout="out(this)"/></td>
+			</tr>
+			<tr><!--Fourth row-->
+				<td><input type="button" id="seven" value="7" onclick="dis('7')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="eight" value="8" onclick="dis('8')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="nine" value="9" onclick="dis('9')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="mul" value="x"onclick="dis('*')" onmouseover="over3(this)" onmouseout="out(this)"/></td>
+			</tr>
+			<tr><!--Fifth row-->
+				<td><input type="button" id="cl" value="C" onclick="clr()" onmouseover="over2(this)" onmouseout="out(this)" title="Clear All"/></td>
+				<td><input type="button" id="zero" value="0" onclick="dis('0')" onmouseover="over(this)" onmouseout="out(this)"/></td>
+				<td><input type="button" id="equal" value="=" onclick="resl()" onmouseover="over2(this)" onmouseout="out(this)" title="Solve"/></td>
+				<td><input type="button" id="divide" value="/" onclick="dis('/')" onmouseover="over3(this)" onmouseout="out(this)"/></td>
+			</tr>
+		</table>
+	</form>
+	</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@900&display=swap');
+
+
+@media only screen and (max-width:768px)
+{
+body{
+	background-image: url("../Images/b5.jpg");
+	background-size: auto;
+}
+.header{
+	padding: 5px;
+	margin-bottom: 20px;
+}
+h1{
+	text-align:center;
+	font-family: Orbitron;
+	color:#00ff00;
+	text-shadow: 2px 2px 5px #000000;
+	font-size: 35px;
+}
+h3{
+	text-align: center;
+	font-family:Nova Cut;
+	color:#ffff00;
+	font-size: 25px;
+}
+input[type=button]{
+	color:red;
+	font-family: Righteous;
+	text-shadow: ;/*w3 schools import from*/
+	border: 3px solid black;
+	border-color:#5900ff;
+	border-radius: 6px;
+	width:60px;
+	height: 38px;
+	font-size:20px;
+	text-align:center;
+	font-weight:900;
+	background:#ffffff;
+	outline:none;
+	box-shadow: 1px 1px 3px black;
+	text-shadow: 1px 1px 2px #333333;
+	
+}
+input[type=text]{
+	width:100%;
+	text-align:center;
+	font-weight:900;
+	color:brown;
+	font-family:Righteous;
+	border: 3px solid black;
+	border-radius: 15px;
+	border-color:blue;
+	height: 40px;
+	width: 100%;
+	font-size:20px;
+	background:#eeeeee;
+	border-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2);
+}
+.calculator{
+	padding: 10px;
+}
+table{
+	width:100%;
+	border: 1px solid black;
+	border-radius: 10px;
+	border-color:white;
+	background-color: rgb(255,255,255,0.5);
+	border-spacing: 12px 15px;
+}
+}
+
+
+@media only screen and (min-width:769px)
+{
+body{
+	background-image: url("../Images/b5.jpg");
+	background-size: cover;
+}
+.header{
+	padding: 5px;
+	margin-bottom: 20px;
+}
+h1{
+	text-align:center;
+	font-family:Orbitron;
+	color:#00ff00;
+	text-shadow: 0px 2px 5px #000000;
+	font-size: 40px;
+}
+h3{
+	text-align: center;
+	font-family:Nova Cut;
+	color:#ffff00;
+	font-size: 35px;
+}
+input[type=button]{
+	color:red;
+	font-family:Righteous;
+	text-shadow: ;/*w3 schools import from*/
+	border: 3px solid black;
+	border-color:purple;
+	border-radius: 6px;
+	width:60px;
+	height: 35px;
+	font-size:20px;
+	text-align:center;
+	font-weight:900;
+	background:#ffffff;
+	
+}
+input[type=text]{
+	text-align:center;
+	font-weight:900;
+	color:brown;
+	font-family:Righteous;
+	border: 3px solid black;
+	border-radius: 15px;
+	border-color:blue;
+	height: 40px;
+	width: 100%;
+	font-size:20px;
+	background:#eeeeee;
+}
+.calculator{
+	padding: 10px;
+}
+table{
+	border: 1px solid black;
+	border-radius: 10px;
+	border-color:white;
+	background-color: rgb(255,255,255,0.5);
+	border-spacing: 22px 20px;
+}
+}
