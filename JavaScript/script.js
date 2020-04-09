@@ -24,6 +24,7 @@ function resl()
 }
 function clr()
 {
+	document.getElementById("result").style.backgroundColor="#93e5fa";
 	document.getElementById("result").value="";
 }
 
