@@ -72,7 +72,7 @@ table{
 }
 }
 
-
+/***************************************Device_2***************************************/
 @media only screen and (min-width:769px)
 {
 body{
@@ -114,7 +114,7 @@ input[type=button]{
 input[type=text]{
 	text-align:center;
 	font-weight:900;
-	color:brown;
+	color:#ff0040;
 	font-family:Righteous;
 	border: 3px solid black;
 	border-radius: 15px;
